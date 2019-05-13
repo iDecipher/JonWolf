@@ -1,0 +1,192 @@
+/* Test properties. */
+
+.whiteSectFont {
+    font-family: MyriadPro-Regular;
+    color: black;
+}
+
+.blackSectFont {
+    font-family: MyriadPro-Regular;
+    color: white;
+}
+
+.sectionTitle h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.description p {
+    text-align: justify;
+    font-family: MyriadPro-Regular;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* Button properties. */
+
+.homeButtonsBlack,
+.homeButtonsWhite,
+#contactForm button {
+    text-align: center;
+}
+
+.homeButtonsBlack a,
+.homeButtonsWhite a,
+#contactForm button {
+    width: 30%;
+    padding: 0px 25px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0 2%;
+}
+
+.homeButtonsBlack a:hover,
+.homeButtonsWhite a:hover,
+#contactForm button {
+    border: 1px solid gray;
+}
+
+.homeButtonsBlack a {
+    background-color: black;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+.homeButtonsBlack a:hover {
+    background-color: white;
+}
+
+.homeButtonsWhite a,
+#contactForm button {
+    background-color: white;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+.homeButtonsWhite a:hover,
+#contactForm button:hover {
+    background-color: black;
+}
+
+.homeButtonsBlack a h3,
+.homeButtonsWhite a h3,
+#contactForm button h3 {
+    font-family: "MyriadPro-Regular";
+    font-size: 15px;
+}
+
+.homeButtonsBlack a h3 {
+    color: white;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.homeButtonsBlack a:hover h3 {
+    color: black;
+}
+
+.homeButtonsWhite a h3,
+#contactForm button h3 {
+    color: black;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.homeButtonsWhite a:hover h3,
+#contactForm button:hover h3 {
+    color: white;
+}
+
+
+/* ------------------ Section 1. (Inherit white section) ------------------ */
+
+#aboutSection1 {
+    margin-top: -30px;
+}
+
+#nameJonWolf h2 {
+    padding-top: 25px;
+}
+
+#namePhoto {
+    margin-top: -30px;
+    width: 650px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 5px #888888
+}
+
+#namePhoto img {
+    width: 100%;
+}
+
+#aboutDescription {
+    width: 960px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ------------------ Section 2. (Inherit black section) ------------------ */
+
+#reserveDescription {
+    width: 960px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reservation h2 {
+    padding-top: 0px;
+}
+
+
+/* ------------------ Section 3. (Inherit white section) ------------------ */
+
+#contactForm {
+    width: 480px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactForm label {
+    font-family: MyriadPro-Semibold;
+    color: black;
+    font-size: 20px;
+}
+
+#contactForm input {
+    font-family: MyriadPro-Regular;
+    color: black;
+    font-size: 16px;
+}
+
+#formName,
+#formEmail,
+#formSubject {
+    width: 300px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#contactForm textarea {
+    font-family: MyriadPro-Regular;
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+}
+
+#contactForm button {
+    width: 26%;
+    position: relative;
+    left: 37%;
+    margin-bottom: 30px;
+}

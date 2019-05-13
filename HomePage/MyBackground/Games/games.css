@@ -1,0 +1,172 @@
+/* --------------------------------- Global Section --------------------------------- */
+
+body #games-section {
+    align-items: center;
+    font-family: "MyriadPro-Semibold";
+    justify-content: center;
+    display: flex;
+    /* if header rescaled, switch flex --> block */
+}
+
+
+/* ------------------------------------  Section ------------------------------------ */
+
+body #games-section #wrapper {
+    text-align: center;
+    height: 264.22vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
+body #games-section #wrapper .item-wrapper {
+    background-color: white;
+    height: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+body #games-section #wrapper .item-wrapper .container {
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+body #games-section #wrapper .item-wrapper .container #content .item-btn {
+    font-family: sans-serif;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    padding: 12px 35px;
+    /* -------------------- */
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    -ms-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+
+body #games-section #wrapper #case-black {
+    direction: rtl;
+}
+
+body #games-section #wrapper #case-black .container {
+    background-color: black;
+    color: aliceblue;
+}
+
+body #games-section #wrapper #case-white .container {
+    background-color: silver;
+    /*white or silver*/
+}
+
+body #games-section #wrapper .item-wrapper .container #content {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 330px;
+    z-index: 5;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+body #games-section #wrapper #case-white .container #content #btn-black {
+    background-color: black;
+    border: 1px solid silver;
+    color: white;
+}
+
+body #games-section #wrapper #case-black .container #content #btn-white {
+    background-color: white;
+    border: 1px solid silver;
+    color: black;
+}
+
+body #games-section #wrapper #case-white .container #content #btn-black:hover {
+    background-color: white;
+    color: black;
+}
+
+body #games-section #wrapper #case-black .container #content #btn-white:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+body #games-section #wrapper .item-wrapper .container #btn-link {
+    height: 100%;
+    width: 100%;
+}
+
+body #games-section #wrapper .item-wrapper .container #btn-link .item-image {
+    position: relative;
+    background-size: cover;
+    height: inherit;
+    width: inherit;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+/* ------------------ Game review ---------------*/
+
+body #games-section #wrapper .item-wrapper .container #btn-link #image-game {
+    background-image: url("review.jpg");
+    background-position: right;
+}
+
+
+/* -------------------- Artwork -----------------*/
+
+body #games-section #wrapper .item-wrapper .container #btn-link #image-art {
+    background-image: url("animation.jpg");
+    background-position: left;
+}
+
+
+/* -------------------- Streaming -----------------*/
+
+body #games-section #wrapper .item-wrapper .container #btn-link #image-stream {
+    background-image: url("keyboard.jpg");
+    background-position: right;
+}
+
+
+/* ---------------------LEFT---------------------*/
+
+body #games-section #wrapper .item-wrapper .container #btn-link #image-art:hover {
+    margin-right: -100%;
+    left: 0;
+    width: 200%;
+    z-index: 1;
+}
+
+
+/* -----------------------RIGHT------------------*/
+
+body #games-section #wrapper .item-wrapper .container #btn-link #image-game:hover {
+    margin-left: -100%;
+    right: 0;
+    width: 200%;
+    z-index: 1;
+}
+
+body #games-section #wrapper .item-wrapper .container #btn-link #image-stream:hover {
+    margin-left: -100%;
+    right: 0;
+    width: 200%;
+    z-index: 1;
+}
+
+
+/* ----------------------- h3 tag -------------------- */
+
+body #games-section #wrapper .item-wrapper .container #content .inner-tag {
+    position: relative;
+    font-size: 3.5em;
+    vertical-align: middle;
+}

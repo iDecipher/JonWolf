@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>State Competition (St. John Ambulance) | Jon Wolf</title>
+
+    <meta charset="UTF-8">
+
+    <!-- Mobile view turned off. -->
+    <!--    <meta name="viewport" content="initial-scale=1.0">-->
+
+    <!-- Favicon (MANDATORY) . -->
+    <link rel="shortcut icon" type="image/png" href="../../../../favicon.png">
+
+    <!-- Inherited stylesheet (MANDATORY) . -->
+    <link href="../../../../main.css" rel="stylesheet" type="text/css">
+
+    <!-- Using custom fonts (local, MANDATORY). -->
+    <link href="../../../../fonts.css" rel="stylesheet" type="text/css">
+
+    <!-- Stylesheet for current document only, replaces inheritance (please create one yourself). -->
+    <link href="../eachWork.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../baguetteBox.js-dev/dist/baguetteBox.min.css">
+    <script src="../baguetteBox.js-dev/dist/baguetteBox.min.js" async></script>
+    <script src="../jquery.min.js"></script>
+    <script src="../jquery.jscroll.min.js"></script>
+
+    <!--    <link rel="stylesheet" href="../baguetteBox.js-dev/dist/baguetteBox.css">-->
+    <!--    <script src="../baguetteBox.js-dev/dist/baguetteBox.js" async></script>-->
+</head>
+
+<body>
+
+    <!-- Use this format when setting class of section. blackSection for black ones, whiteSection for white ones. 
+        By doing so the background color and the margin of each section will be set automatically. -->
+
+    <!-- ------------------ Main header. (Styling in main.css) ------------------ -->
+    <div id="mainHeader" class="blackSection">
+
+        <div id="logo">
+            <img src="../../../../logo.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area alt="logo" title="Back to Home Page" href="../../../home.htm" coords="45,45,40" shape="circle">
+            </map>
+        </div>
+
+        <div id="pageButtons">
+            <!--
+            <a href="../ComingSoon/cs.html" style="border-style: hidden">
+                <h3>TEST 1</h3>
+            </a>
+-->
+
+            <a href="../../../MyWork/work.htm" style="border-style: hidden">
+                <h3>MY WORK</h3>
+            </a>
+            <a href="../../../AboutMe/About.htm#reservation" style="border-style: hidden">
+                <h3>RESERVATION</h3>
+            </a>
+            <a href="../../../AboutMe/About.htm">
+                <h3>ABOUT ME</h3>
+            </a>
+        </div>
+
+        <!--
+        <div id="titleButtons">
+            <a href="../ComingSoon/cs.html">
+                <h3>MY WORK</h3>
+            </a>
+            <a href="MyBackground/background.htm">
+                <h3>MY BACKGROUND</h3>
+            </a>
+        </div>
+-->
+
+        <div id="title" style="width:90%;left:5%; border-style: none">
+            <a href="">
+                <h2 style="margin-top: 160px;font-family: MyriadPro-Semibold;font-size: 70px;color: white;">STATE COMPETITION<br>&#40;ST. JOHN AMBULANCE&#41;</h2>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- ------------------ Section 1. (Styling in eachWork.css, except for whiteSection from main.css) ------------------ -->
+    <div id="w1Section1" class="whiteSection">
+        <!--        <h2>TEDxTARUC 2016</h2>-->
+        <div class="infinityScroll">
+            <div class="flexbox-container">
+                <a href="001.jpg">
+                    <img src="001.jpg" alt="image">
+                </a>
+                <a href="002.jpg">
+                    <img src="002.jpg" alt="image">
+                </a>
+            </div>
+            <div class="flexbox-container">
+                <a href="003.jpg">
+                    <img src="003.jpg" alt="image">
+                </a>
+                <a href="004.jpg">
+                    <img src="004.jpg" alt="image">
+                </a>
+            </div>
+            <div class="flexbox-container">
+                <a href="005.jpg">
+                    <img src="005.jpg" alt="image">
+                </a>
+                <a href="006.jpg">
+                    <img src="006.jpg" alt="image">
+                </a>
+            </div>
+            <div class="flexbox-container">
+                <a href="007.jpg">
+                    <img src="007.jpg" alt="image">
+                </a>
+                <a href="008.jpg">
+                    <img src="008.jpg" alt="image">
+                </a>
+            </div>
+            <div class="flexbox-container">
+                <a href="009.jpg">
+                    <img src="009.jpg" alt="image">
+                </a>
+                <a href="010.jpg">
+                    <img src="010.jpg" alt="image">
+                </a>
+            </div>
+            <div class="flexbox-container">
+                <a href="011.jpg">
+                    <img src="011.jpg" alt="image">
+                </a>
+                <a href="012.jpg">
+                    <img src="012.jpg" alt="image">
+                </a>
+            </div>
+            <a href="6-StateComp-2.htm">MORE IMAGES</a>
+        </div>
+
+        <script>
+            baguetteBox.run('.flexbox-container', {
+                animation: 'fadeIn',
+                noScrollbars: true,
+                buttons: false
+            });
+
+        </script>
+
+
+        <script>
+            $('.infinityScroll').jscroll();
+
+        </script>
+
+
+    </div>
+
+    <!-- ------------------ Main footer. (Styling in main.css) ------------------ -->
+    <div class="mainFooter blackSection">
+
+        <div id="footerText">
+            <p>&copy 2017 Jon Wolf. All rights reserved. </p>
+        </div>
+
+
+
+</body>

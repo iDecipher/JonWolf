@@ -1,0 +1,137 @@
+/* --------------------------------- Global Section --------------------------------- */
+
+body #review-section {
+    font-family: "MyriadPro-Regular";
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ------------------------------------  Section ------------------------------------ */
+
+body #review-section #wrapper {
+    height: 1500px;
+    width: 1000px;
+    background-color: white;
+    padding: 10px;
+    /*use box maybe*/
+    /*-----------------*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body #review-section #wrapper .container {
+    height: 500px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    /* ---------------- */
+    vertical-align: top;
+}
+
+body #review-section #wrapper .container .image-box {
+    height: 95%;
+    width: 50%;
+    display: block;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+
+/*
+delete float and replace this
+body #review-section #wrapper .container:nth-of-type(even) {
+    direction: rtl;
+    text-align: left;
+}
+*/
+
+body #review-section #wrapper #left .image-box {
+    float: left;
+}
+
+body #review-section #wrapper #right .image-box {
+    float: right;
+}
+
+body #review-section #wrapper .container .image-box .img-display #showcase {
+    height: 330px;
+    width: 500px;
+    object-fit: contain;
+    background-color: black;
+    border: 2px solid silver;
+    /*----------------*/
+    transition: 1s;
+    -ms-transition: 1s;
+}
+
+body #review-section #wrapper .container #content {
+    display: block;
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin: -5px 0 0 10px;
+    padding-left: 5px;
+}
+
+body #review-section #wrapper .container #content #review-title {
+    font-size: 22px;
+}
+
+body #review-section #wrapper .container #content #details {
+    font-size: 17px;
+    text-align: justify;
+}
+
+body #review-section #wrapper .container .image-box .strip-img {
+    height: 80px;
+    width: 100%;
+    margin: 4px 0;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 2%;
+    border: 1px solid lightgray;
+}
+
+body #review-section #wrapper .container .image-box .strip-img .scroll-img {
+    height: 100%;
+    width: 116px;
+    display: inline-block;
+    margin: 7px 10px;
+}
+
+
+/*-----------------------------------------*/
+
+body #review-section #wrapper .container .image-box .strip-img .scroll-img #scale {
+    height: 100%;
+    width: auto;
+    display: inline;
+}
+
+body #review-section #wrapper .container .image-box .strip-img .scroll-img #scale #image {
+    object-fit: fill;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+
+
+/* ------------------------ scroll design ----------------------- */
+
+body #review-section #wrapper .container .image-box .strip-img::-webkit-scrollbar {
+    width: 1em;
+}
+
+body #review-section #wrapper .container .image-box .strip-img::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+body #review-section #wrapper .container .image-box .strip-img::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    outline: 1px solid black;
+}

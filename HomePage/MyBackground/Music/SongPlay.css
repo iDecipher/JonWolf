@@ -1,0 +1,183 @@
+#MainDiv {
+    background-color: floralwhite;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#subHeader {
+    box-shadow: 8px 6px 8px #888888;
+    width: 96%;
+    margin: auto;
+    margin-top: -20px;
+    background-color: blanchedalmond;
+}
+
+#subHeader h1 {
+    margin-left: 20%;
+    line-height: 75px;
+    font-family: "MyriadPro-Regular";
+    font-size: 36px;
+    text-align: center;
+    width: 60%;
+    border-bottom: 1px solid grey;
+}
+
+#dateSOTD {
+    margin-top: -15px;
+    font-family: "MyriadPro-Regular";
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+#subDiv {
+    box-shadow: 8px 6px 8px #888888;
+    width: 96%;
+    margin: auto;
+    margin-top: -28px;
+    margin-left: 2%;
+    background-color: blanchedalmond;
+}
+
+#subDiv {
+    display: inline-flex;
+}
+
+#subDiv div:first-of-type {
+    width: 25%;
+}
+
+#subDiv div:nth-of-type(2) {
+    width: 75%;
+}
+
+#Container {
+    position: relative;
+}
+
+#CoverArt1 {
+    width: 100%;
+    height: 300px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+
+/*
+#PlayButton {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.play {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Container:hover #PlayButton {
+    opacity: 1;
+}
+*/
+
+#song1Detail {
+    font-family: "MyriadPro-Regular";
+    margin-left: 3%;
+}
+
+#song1Detail h2 {
+    font-size: 30px;
+}
+
+#song1Detail h3 {
+    font-size: 25px;
+}
+
+#OffiSite:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+#song1Genre {
+    margin-top: -15px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#RecentTitle h2 {
+    font-family: "MyriadPro-Regular";
+    font-size: 36px;
+    text-align: center;
+    line-height: 65px;
+    border-bottom: 1px solid grey;
+    margin-left: 20%;
+    width: 60%;
+}
+
+#RecentTitle p {
+    margin-top: -25px;
+}
+
+#RecentDiv,
+#RecentTitle {
+    box-shadow: 8px 6px 8px #888888;
+    width: 96%;
+    margin: auto;
+    margin-top: 0px;
+    background-color: darksalmon;
+}
+
+#RecentDiv {
+    display: inline-flex;
+    margin-left: 2%;
+}
+
+#RecentDiv div:first-of-type {
+    width: 25%;
+}
+
+#RecentDiv div:nth-of-type {
+    width: 75%;
+}
+
+#CoverArt2 {
+    width: 100%;
+    height: 300px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+#song2Detail {
+    margin-left: 3%;
+    font-family: "MyriadPro-Regular";
+}
+
+#song2Detail h2 {
+    font-size: 30px;
+}
+
+#song2Detail h3 {
+    font-size: 25px;
+}
+
+#OffSite2:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+#song2Genre {
+    margin-top: -15px;
+    margin-left: 50px;
+    font-size: 20px;
+}

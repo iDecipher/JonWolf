@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SONGS | Jon Wolf</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../../../favicon.png" />
+    <link href="../../../main.css" rel="stylesheet" type="text/css">
+    <link href="../../../fonts.css" rel="stylesheet" type="text/css">
+    <link href="SongPlay.css" rel="stylesheet" type="text/css">
+
+    <script>
+        var num = 1;
+        var num2 = 1;
+
+        function play() {
+            var audio = document.getElementById("song1");
+            if (num % 2 != 0) {
+                audio.play();
+                num++;
+            } else {
+                audio.pause();
+                num++;
+            }
+        }
+
+        function play2() {
+            var audio2 = document.getElementById("rSong1");
+            if (num2 % 2 != 0) {
+                audio2.play();
+                num2++;
+            } else {
+                audio2.pause();
+                num2++;
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id="mainHeader" class="blackSection">
+        <div id="logo">
+            <img src="../../../logo.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area alt="logo" title="Back to Home Page" href="../../home.htm" coords="45,45,40" shape="circle">
+            </map>
+        </div>
+
+        <div id="pageButtons">
+            <a href="MusicLanding.html" style="border-style:hidden">
+                <h3>MUSIC</h3>
+            </a>
+
+            <a href="../PersonalBlog/personalblog.html" style="border-style:hidden">
+                <h3>PERSONAL BLOG</h3>
+            </a>
+
+            <a href="../Games/games.htm" style="border-style:hidden">
+                <h3>GAMES</h3>
+            </a>
+
+            <a href="../../AboutMe/About.htm">
+                <h3>ABOUT ME</h3>
+            </a>
+
+
+        </div>
+
+        <div id="title" style="width:90%;left:5%; border-style: none">
+            <a href="">
+                <h2 style="margin-top: 160px;font-family: MyriadPro-Semibold; font-size: 70px;color: white;">DISCOVER SONGS</h2>
+            </a>
+        </div>
+
+    </div>
+
+    <div id="MainDiv">
+        <div id="subHeader">
+            <h1>SONG OF THE DAY</h1>
+            <h6 id="dateSOTD">4 MARCH 2017</h6>
+        </div>
+
+        <div id="subDiv">
+            <div id="Container">
+                <img src="johnnyGoth_cover.jpg" onclick="play()" id="CoverArt1" style="cursor: pointer">
+                <audio id="song1" src="Johnny-Goth-feels-like-were-dying.mp3" type="audio/mpeg"></audio>
+                <!--
+                <div id="PlayButton">
+                    <h2 class="play">PLAY</h2>
+                </div>
+-->
+            </div>
+
+            <div id="song1Detail">
+                <a href="https://johnnygoth.bandcamp.com" title="OFFICIAL SITE" id="OffiSite">
+                    <h2 id="Song1Artist">Johnny Goth</h2>
+                </a>
+                <h2 id="Song1Title">Feels Like We're Dying</h2>
+                <h3>GENRE:</h3>
+                <ul id="song1Genre">
+                    <li><strong>INDIE</strong></li>
+                    <li><strong>ALTERNATIVE</strong></li>
+                    <li><strong>FOLK</strong></li>
+                    <li><strong>EMO</strong></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="RecentTitle">
+            <h2>RECENT SONGS</h2>
+            <p>&nbsp;</p>
+        </div>
+
+        <div id="RecentDiv">
+            <div>
+                <img src="vanT-OceanBlues.jpg" onclick="play2()" style="cursor: pointer" id="CoverArt2">
+                <audio src="VanT_OceanBlues.mp3" type="audio/mpeg" id="rSong1"></audio>
+            </div>
+
+            <div id="song2Detail">
+                <a href="https://soundcloud.com/chantel-van-t" id="OffSite2" title="OFFICIAL SITE">
+                    <h2>Van T</h2>
+                </a>
+                <h2>Ocean Blues</h2>
+                <h3>GENRE:</h3>
+                <ul id="song2Genre">
+                    <li><strong>INDIE</strong></li>
+                    <li><strong>FOLK</strong></li>
+                    <li><strong>COUNTRY</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainFooter">
+
+        <div id="footerText">
+            <p>&copy 2017 Jon Wolf. All rights reserved. </p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

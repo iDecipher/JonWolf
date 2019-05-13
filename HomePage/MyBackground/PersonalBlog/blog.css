@@ -1,0 +1,205 @@
+#whiteMain {
+    background-color: floralwhite;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#blogMain {
+    width: 90%;
+    margin: auto;
+}
+
+#blogTitle {
+    margin-top: 30px;
+    font-family: "MyriadPro-Regular";
+    font-size: 25px;
+    text-align: left;
+    color: black;
+}
+
+#dateNo1 {
+    margin-top: -10px;
+    font-family: "MyriadPro-Regular";
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    margin-top: -20px;
+}
+
+#blogImage img {
+    width: 100%;
+    border: 0.2px solid gray;
+    margin-top: -20px;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+#eewhore {
+    background-image: url(FirstBlog/Blog1.jpg);
+    background-position: center;
+    height: 330px;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#PopupText {
+    font-family: "MyriadPro-Regular";
+    display: inline-block;
+    line-height: 100px;
+    color: white;
+    opacity: 0;
+    transition: 0.5s ease;
+    font-size: 27pt;
+    letter-spacing: 3pt;
+    filter: blur(20px);
+}
+
+#eewhore:hover #PopupText {
+    opacity: 0.8;
+    filter: blur(0);
+    line-height: 280px;
+}
+
+#article {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article p,
+.article ul li {
+    font-style: italic;
+    font-family: "MyriadPro-Regular";
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+}
+
+#blogVid {
+    text-align: center;
+}
+
+#MoreButton {
+    margin-bottom: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MoreButton div h2 {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "MyriadPro-Regular";
+    border: 1px solid grey;
+    color: black;
+    font-size: 20px;
+}
+
+.commentRule {
+    background-color: silver;
+    height: 1px;
+    border: 0;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+#leaveComment {
+    font-family: MyriadPro-Regular;
+    text-align: center;
+    font-family: 20px;
+    padding-bottom: 20px;
+}
+
+#contactForm {
+    width: 480px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactForm label {
+    font-family: MyriadPro-Semibold;
+    color: black;
+    font-size: 20px;
+}
+
+#contactForm input {
+    font-family: MyriadPro-Regular;
+    color: black;
+    font-size: 16px;
+}
+
+#formName,
+#formEmail,
+#formSubject {
+    width: 300px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#contactForm textarea {
+    font-family: MyriadPro-Regular;
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+}
+
+#contactForm button {
+    width: 26%;
+    position: relative;
+    left: 37%;
+    margin-bottom: 30px;
+}
+
+
+/* Button properties. */
+
+#contactForm button {
+    text-align: center;
+}
+
+#contactForm button {
+    width: 30%;
+    padding: 0px 25px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0 2%;
+}
+
+#contactForm button {
+    border: 1px solid gray;
+}
+
+#contactForm button {
+    background-color: white;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+#contactForm button:hover {
+    background-color: black;
+}
+
+#contactForm button h3 {
+    font-family: "MyriadPro-Regular";
+    font-size: 15px;
+}
+
+#contactForm button h3 {
+    color: black;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+#contactForm button:hover h3 {
+    color: white;
+}

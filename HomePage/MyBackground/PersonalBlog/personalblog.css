@@ -1,0 +1,104 @@
+#whitemain {
+    background-color: floralwhite;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#blogPost {
+    width: 90%;
+    margin: auto;
+}
+
+#blogPost h2 {
+    margin-top: -20px;
+    font-family: "MyriadPro-Regular";
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 0.5px solid gray;
+    transition: 0.5s color;
+}
+
+#blogPost h2:hover {
+    color: dimgray;
+}
+
+#blogNo1 {
+    margin-top: 30px;
+    font-family: "MyriadPro-Regular";
+    font-size: 25px;
+    text-align: left;
+    color: black;
+}
+
+#blogNo1:hover {
+    color: cornflowerblue;
+}
+
+#dateNo1 {
+    margin-top: -10px;
+    font-family: "MyriadPro-Regular";
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    margin-top: -20px;
+}
+
+#dateNo1:hover {
+    color: cornflowerblue;
+}
+
+#picture1 img {
+    width: 100%;
+    border: 0.2px solid gray;
+    margin-top: -20px;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+#picture1 img:hover {
+    opacity: 0.3;
+}
+
+#picture1 .viewmore {
+    width: 20%;
+    margin: auto;
+    display: block;
+    position: relative;
+    visibility: hidden;
+    margin-top: -13%;
+    margin-bottom: 13%;
+    font-family: "MyriadPro-Semibold";
+    font-size: 30px;
+    color: black;
+}
+
+#picture1 .viewmore:hover {
+    visibility: visible;
+}
+
+#picture1 img:hover+.viewmore {
+    visibility: visible;
+}
+
+#blog1sub {
+    font-family: "MyriadPro-Regular";
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+
+.blogRule {
+    background-color: silver;
+    height: 1px;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}

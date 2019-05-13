@@ -1,0 +1,179 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>About Me | Jon Wolf</title>
+
+    <meta charset="UTF-8">
+
+    <!-- Mobile view turned off. -->
+    <!--    <meta name="viewport" content="initial-scale=1.0">-->
+
+    <!-- Favicon (MANDATORY) . -->
+    <link rel="shortcut icon" type="image/png" href="../../favicon.png" />
+
+    <!-- Inherited stylesheet (MANDATORY) . -->
+    <link href="../../main.css" rel="stylesheet" type="text/css">
+
+    <!-- Using custom fonts (local, MANDATORY). -->
+    <link href="../../fonts.css" rel="stylesheet" type="text/css">
+
+    <!-- Stylesheet for current document only, replaces inheritance (please create one yourself). -->
+    <link href="About.css" rel="stylesheet" type="text/css">
+
+    <script>
+        function calendarLink() {
+            window.open("calendar.htm", "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=640, height=600");
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+    <!-- Use this format when setting class of section. blackSection for black ones, whiteSection for white ones. 
+        By doing so the background color and the margin of each section will be set automatically. -->
+
+    <!-- ------------------ Main header. (Styling in main.css) ------------------ -->
+    <div id="mainHeader" class="blackSection">
+
+        <div id="logo">
+            <img src="../../logo.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area alt="logo" title="Back to Home Page" href="../home.htm" coords="45,45,40" shape="circle">
+            </map>
+        </div>
+
+        <div id="pageButtons">
+
+            <a href="../MyWork/work.htm" style="border-style: hidden">
+                <h3>MY WORK</h3>
+            </a>
+
+
+            <a href="../MyBackground/background.htm" style="border-style: hidden">
+                <h3>MY BACKGROUND</h3>
+            </a>
+
+            <a style="background-color: white;" href="">
+                <h3 style="color: black;">ABOUT ME</h3>
+            </a>
+        </div>
+
+        <!--
+        <div id="titleButtons">
+            <a href="../ComingSoon/cs.html">
+                <h3>MY WORK</h3>
+            </a>
+            <a href="MyBackground/background.htm">
+                <h3>MY BACKGROUND</h3>
+            </a>
+        </div>
+-->
+
+        <div id="title">
+            <a href="About.htm">
+                <h2 style="margin-top: 160px;font-family: MyriadPro-Semibold;font-size: 70px;color: white;">ABOUT ME</h2>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- ------------------ Section 1. (Styling in About.css, except for whiteSection from main.css) ------------------ -->
+
+    <div id="aboutSection1" class="whiteSection">
+
+        <div id="nameJonWolf" class="sectionTitle whiteSectFont">
+            <h2>JON WOLF</h2>
+        </div>
+
+        <div id="namePhoto">
+            <img src="JonWolf.png">
+        </div>
+
+        <div id="aboutDescription" class="description whiteSectFont">
+            <p><b>Jon Wolf</b> has devoted the past thirty years of his life to the art and craft of photography. Equally at home shooting a portrait, a landscape, or a documentary wedding photograph, his images are defined by his love of composition and light.</p>
+
+            <p>Voted as one of the top 100 photographers of all time by Professional Photographer magazine, Jon’s images have been exhibited all over the world including The Getty Image Gallery in London and the Visa Pour L’Image festival in France. His life and work have been the subject of interviews in The Washington Post, Newsweek, Sueddutsche Zeitung, Adore Noir, American Photo, British Journal of Photography, The Photographer, The Master Photographer, Professional Photographer USA, Photo Pro, Rangefinder, Digital Pro, CPN, Phase One, Alien Skin, and Nikon Europe.</p>
+
+            <p>Throughout his career, Jon has devoted a lot of time to teaching photography to others. He has been a Nikon Ambassador since 2008 and regularly travels throughout Europe educating and inspiring photographers from all over the world. In 2012 he spent a week in France helping Sir Don McCullin take his first steps into digital capture.</p>
+
+            <p style="padding-bottom: 40px;">Other than being a photographer, Jon is also a passionate writer, habitual music curator, and an active gamer; all which receive noticeable attention from multiple parties. </p>
+        </div>
+
+    </div>
+
+
+    <!-- ------------------ Section 2. (Styling in About.css, except for blackSection from main.css) ------------------ -->
+    <div id="homeSection2" class="blackSection blackSectFont">
+
+        <div id="reservation" class="sectionTitle blackSectFont">
+            <h2>RESERVATION</h2>
+        </div>
+
+        <div id="reserveDescription" class="description blackSectFont">
+            <p style="color: white; text-align: center">I am mostly available on the weekends. </p>
+
+            <p style="color: white; text-align: center">To make a reservation, click on the link below. </p>
+
+        </div>
+
+        <div id="section2Button" class="homeButtonsBlack">
+            <a style="width: 13%;" onclick="calendarLink()">
+                <h3>RESERVE NOW</h3>
+            </a>
+        </div>
+
+    </div>
+
+    <div id="homeSection3" class="whiteSection whiteSectFont">
+
+        <div id="nameJonWolf" class="sectionTitle whiteSectFont">
+            <h2>CONTACT ME</h2>
+        </div>
+
+        <div id="contact">
+            <form id="contactForm" action="mailto:jon@jonwolf.com" method="post">
+                <label for="formName">NAME: </label>
+                <input type="text" id="formName" name="formName" required="required">
+                <p style="font-size: 16px"></p>
+                <label for="formEmail">EMAIL: </label>
+                <input type="text" id="formEmail" name="formEmail" required="required">
+                <p style="font-size: 16px"></p>
+                <label for="formSubject">SUBJECT: </label>
+                <input type="text" id="formSubject" name="formSubject" required="required">
+                <p style="font-size: 16px"></p>
+                <label>CONTENT: </label>
+                <br>
+                <textarea cols="50" rows="7" required="required"></textarea>
+                <p style="font-size: 12px"></p>
+                <button type="submit">
+                   <h3>SEND</h3>
+                </button>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <div class="mainFooter blackSection">
+
+        <div id="footerText">
+            <p>&copy 2017 Jon Wolf. All rights reserved. </p>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

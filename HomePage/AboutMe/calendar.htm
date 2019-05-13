@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Reservation | Jon Wolf</title>
+    <link rel="shortcut icon" type="image/png" href="../../favicon.png" />
+    <link href="../../fonts.css" rel="stylesheet" type="text/css">
+    <link href="calendar/fullcalendar.min.css" rel='stylesheet'>
+    <link href='calendar/fullcalendar.print.min.css' rel='stylesheet' media='print'>
+    <link href='calendar.css' rel='stylesheet'>
+    <script src='calendar/lib/moment.min.js'></script>
+    <script src='calendar/lib/jquery.min.js'></script>
+    <script src='calendar/fullcalendar.min.js'></script>
+    <script>
+        $(document).ready(function() {
+
+            $('#calendar').fullCalendar({
+                defaultView: 'listYear',
+                header: {
+                    left: 'listYear,month',
+                    center: 'title',
+                    //                    right: '',
+                    right: 'today, prev, next',
+                },
+                // defaultDate: '2017-04-12', // navLinks: true, // can click day/week names to navigate views // editable: true,
+                eventLimit: true, // allow "more" link when too many events
+                events: [{
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-04-22'
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-04-30'
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-05-06'
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-05-07'
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-05-13'
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-05-20'
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-05-28',
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-06-11'
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-06-17'
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-06-24'
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-06-25',
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-07-01',
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-07-02'
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-07-08'
+                    },
+                    {
+                        id: 001,
+                        title: 'CLICK TO RESERVE',
+                        url: 'About.htm#formName',
+                        start: '2017-07-15',
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-07-16'
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-07-22'
+                    },
+                    {
+                        id: 002,
+                        title: 'RESERVED',
+                        start: '2017-07-29'
+                    }
+                ]
+            });
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id='calendar'></div>
+
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+/*
+FILENAME:                   main.css
+USAGE:                      Applies unified styling to all (or most) pages.
+WEBSITE TITLE:              JON WOLF
+WEBSITE CATEGORY:           PERSONAL WEBSITE
+HTML VERSION:               5
+
+AUTHOR(s):                  ONG JON SHEN
+                            ONG TUN YING
+                            OOI KWOK QUEN
+DEVELOPMENT START DATE:     23 MARCH 2017
+DEVELOPMENT END DATE:       PENDING
+*/
+
+
+/* Try not to edit this file before a consensus as any change will affect every page. */
+
+
+/* Set main background color to black. */
+
+body {
+    background-color: black;
+}
+
+
+/* Set font of 'a' links to be like text. */
+
+a {
+    text-decoration: none;
+}
+
+
+/*  2 types of section: Black and white sections. */
+
+.blackSection {
+    background-color: black;
+    /* Remove default margin. */
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.whiteSection {
+    background-color: white;
+    /* Remove default margin. */
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+/* ------------------ Main header section. (Inherit black section) ------------------ */
+
+
+/* Main header division block. */
+
+#mainHeader {
+    /* Removes default top margin, only applies to 1st section of a page. */
+    margin-top: -21px;
+    /* Determine height of section. */
+    padding-bottom: 425px;
+}
+
+
+/* Title element division block, sets position and center margin (horizontal). */
+
+#mainHeader #title {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: 0px;
+    margin: auto;
+}
+
+
+/* Title heading element, sets font properties and center margin (vertical).*/
+
+#mainHeader #title a {
+    /* Align text to center of 'a' element. */
+    text-align: center;
+}
+
+#mainHeader #title a h1 {
+    /* "Pushes" the text down 160px. */
+    margin-top: 160px;
+    font-family: "MyriadPro-Semibold";
+    font-size: 70px;
+    color: white;
+}
+
+
+/* Display border when title heading element is hovered. */
+
+#mainHeader #title a h1:hover {
+    /* Border increases height of element, hence replace top margin (160-3=157). */
+    margin-top: 157px;
+    border: 3px solid gray;
+}
+
+
+/* Logo element division block. */
+
+#mainHeader #logo {
+    position: absolute;
+    left: 1%;
+    top: 2%;
+}
+
+
+/* Logo img element, sets width (height is automatically set via fixed aspect ratio). */
+
+#mainHeader #logo img {
+    width: 90px;
+}
+
+
+/* Title button element division block, , sets position and center margin (horizontal). */
+
+#mainHeader #titleButtons {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: 0px;
+    text-align: center;
+}
+
+
+/* Title heading element, sets font properties and center margin (vertical).*/
+
+#mainHeader #titleButtons a {
+    width: 30%;
+    padding: 0px 25px;
+    /* Uses inline-block to have 2 elements on the same row. */
+    display: inline-block;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0 2%;
+    /* Replaces 0 top margin. */
+    margin-top: 260px;
+    /* Transition for hover, background-color from black to white, in 1 second. Webkit is for Safari. */
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+#mainHeader #titleButtons a h3 {
+    font-family: "MyriadPro-Regular";
+    font-size: 15px;
+    color: white;
+    /* Transition for hover, text color from white to black, in 1 second. Webkit is for Safari. */
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+
+/* Hovering properties for 'a' element (not allowed to change font color from here). */
+
+#mainHeader #titleButtons a:hover {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+
+/* Hovering properties for text in a (allowed to change font color). */
+
+#mainHeader #titleButtons a:hover h3 {
+    color: black;
+}
+
+
+/* Page button element divison block, sets position to upper right corner of page. */
+
+#mainHeader #pageButtons {
+    position: absolute;
+    width: 80%;
+    right: 2%;
+    top: 2%;
+    height: 80px;
+    margin: auto;
+    /* Align the inline-blocks to the right. */
+    text-align: right;
+}
+
+
+/* Page button 'a' element, sets font properties, and size of each inline block. */
+
+#mainHeader #pageButtons a {
+    width: 12%;
+    padding: 0px 0px;
+    /* Uses inline-block to house many identical elements on the same row. */
+    display: inline-block;
+    /* Align text in the inline-blocks to center of each block. */
+    text-align: center;
+    border: 1px solid gray;
+    /* Distance between 2 blocks. */
+    margin-left: 2%;
+    /* Transition for hover, background-color from black to white, in 1 second. Webkit is for Safari. */
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+#mainHeader #pageButtons a h3 {
+    font-family: "MyriadPro-Regular";
+    font-size: 15px;
+    color: white;
+    /* Transition for hover, font color from white to black, in 1 second. Webkit is for Safari. */
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+
+/* Hovering properties for 'a' element (not allowed to change font color from here). */
+
+#mainHeader #pageButtons a:hover {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+
+/* Hovering properties for text in a (allowed to change font color). */
+
+#mainHeader #pageButtons a:hover h3 {
+    color: black;
+}
+
+
+/* ------------------ Main footer section. (Inherit black section) ------------------ */
+
+
+/* Main footer division block. */
+
+.mainFooter {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+
+/* Footer text. */
+
+#footerText {
+    font-family: "MyriadPro-Regular";
+    font-size: 12px;
+    color: white;
+}
+
+
+/* Rest of the sections of home.htm lies in home.css */

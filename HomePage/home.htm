@@ -1,0 +1,195 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+
+    <!--
+FILENAME:                   home.htm
+USAGE:                      Homepage.
+WEBSITE TITLE:              JON WOLF
+WEBSITE CATEGORY:           PERSONAL WEBSITE
+HTML VERSION:               5
+
+AUTHOR(s):                  ONG JON SHEN
+                            ONG TUN YING
+                            OOI KWOK QUEN
+DEVELOPMENT START DATE:     23 MARCH 2017
+DEVELOPMENT END DATE:       PENDING
+-->
+
+    <title>Jon Wolf</title>
+
+    <meta charset="UTF-8">
+
+    <!-- Mobile view turned off. -->
+    <!--    <meta name="viewport" content="initial-scale=1.0">-->
+
+    <!-- Favicon (MANDATORY) . -->
+    <link rel="shortcut icon" type="image/png" href="../favicon.png" />
+
+    <!-- Inherited stylesheet (MANDATORY) . -->
+    <link href="../main.css" rel="stylesheet" type="text/css">
+
+    <!-- Using custom fonts (local, MANDATORY). -->
+    <link href="../fonts.css" rel="stylesheet" type="text/css">
+
+    <!-- Stylesheet for current document only, replaces inheritance (please create one yourself). -->
+    <link href="home.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+    <!-- Use this format when setting class of section. blackSection for black ones, whiteSection for white ones. 
+        By doing so the background color and the margin of each section will be set automatically. -->
+
+    <!-- ------------------ Main header. (Styling in main.css) ------------------ -->
+    <div id="mainHeader" class="blackSection">
+
+        <div id="logo">
+            <img src="../logo.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area alt="logo" title="Back to Home Page" href="home.htm" coords="45,45,40" shape="circle">
+            </map>
+        </div>
+
+        <div id="pageButtons">
+            <!--
+            <a href="../ComingSoon/cs.html" style="border-style: hidden">
+                <h3>TEST 1</h3>
+            </a>
+-->
+            <a href="AboutMe/About.htm#reservation" style="border-style: hidden">
+                <h3>RESERVATION</h3>
+            </a>
+            <a href="../ComingSoon/cs.html" style="border-style: hidden">
+                <h3>MOBILE SITE</h3>
+            </a>
+            <a href="AboutMe/About.htm">
+                <h3>ABOUT ME</h3>
+            </a>
+        </div>
+
+        <div id="titleButtons">
+            <a href="MyWork/work.htm">
+                <h3>MY WORK</h3>
+            </a>
+            <a href="MyBackground/background.htm">
+                <h3>MY BACKGROUND</h3>
+            </a>
+        </div>
+
+        <div id="title">
+            <a href="home.htm">
+                <h1>JON WOLF</h1>
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- From here, use own CSS file. Do take note that POSITION SHOULD NOT SET TO ABSOLUTE from here as the
+    content sections do not need to have constant height throughout every pages (not like the header section). -->
+
+    <!-- Use     
+    padding-top: 70px;
+    padding-bottom: 70px; 
+    in CSS for the 1st div of each section eg: homeSection1. -->
+
+    <!-- ------------------ Section 1. (Styling in home.css, except for whiteSection from main.css) ------------------ -->
+    <div id="homeSection1" class="whiteSection">
+
+        <div id="textTitle">
+            <h2>I AM A PHOTOGRAPHER</h2>
+        </div>
+
+        <div id="textDescription">
+            <h2>I ALSO WRITE, CURATE MUSIC, AND DO GAMING</h2>
+        </div>
+
+    </div>
+
+
+    <!-- ------------------ Section 2. (Styling in home.css, except for blackSection from main.css) ------------------ -->
+    <div id="homeSection2" class="blackSection">
+
+        <h2>MY LATEST WORKS</h2>
+        <div class="section2Works">
+            <a href="MyWork/EachWork/1-TEDx/1-TEDx-1.htm">
+                <img src="MyWork/Work1.jpg" alt="TEDxTARUC 2016">
+                <span class="workSeeMore">VIEW ALBUM</span>
+                <span class="workCaptions">TEDxTARUC 2016</span>
+            </a>
+        </div>
+        <div class="section2Works">
+            <a href="MyWork/EachWork/2-Camp/2-Camp-1.htm">
+                <img src="MyWork/Work2.jpg" alt="Annual Camp (St. John Ambulance)">
+                <span class="workSeeMore">VIEW ALBUM</span>
+                <span class="workCaptions">Annual Camp (St. John Ambulance)</span>
+            </a>
+        </div>
+        <div class="section2Works">
+            <a href="MyWork/EachWork/3-ShaunJane/3-ShaunJane-1.htm">
+                <img src="MyWork/Work3.jpg" alt="Shaun & Jane's Wedding">
+                <span class="workSeeMore">VIEW ALBUM</span>
+                <span class="workCaptions">Shaun &#38 Jane's Wedding</span>
+            </a>
+        </div>
+
+        <div id="section2Button" class="homeButtonsBlack">
+            <a href="MyWork/work.htm">
+                <h3>MORE WORKS</h3>
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- ------------------ Section 3. (Styling in home.css, except for whiteSection from main.css) ------------------ -->
+    <div id="homeSection3" class="whiteSection">
+        <div id="section3Div">
+
+            <h2 id="section3Title">MY LATEST BLOG POST</h2>
+            <hr class="section3Rule">
+            <a href="MyBackground/PersonalBlog/FirstBlog/blog1.html">
+                <p id="section3Subtitle">5 THINGS TO DO WHEN YOU THINK LIFE SUCKS</p>
+            </a>
+            <a href="MyBackground/PersonalBlog/FirstBlog/blog1.html">
+                <h6 id="section3Date">20 March 2017</h6>
+            </a>
+            <a id="blogImage" href="MyBackground/PersonalBlog/FirstBlog/blog1.html">
+                <img src="MyBackground/PersonalBlog/FirstBlog/Blog1.jpg" alt="Blog1">
+                <span class="blogSeeMore">VIEW BLOG POST</span>
+            </a>
+            <p id="section3Text">“The time to relax is when you don’t have time for it.”
+                <a href="MyBackground/PersonalBlog/FirstBlog/blog1.html">[read more]</a>
+            </p>
+            <hr style="margin-bottom: 30px">
+
+            <div id="section3Button" class="homeButtonsWhite">
+                <a href="MyBackground/PersonalBlog/personalblog.html" style="width: 13%;">
+                    <h3>MORE BLOG POSTS</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------ Main footer. (Styling in main.css) ------------------ -->
+    <div class="mainFooter blackSection">
+
+        <div id="footerText">
+            <p>&copy 2017 Jon Wolf. All rights reserved. </p>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

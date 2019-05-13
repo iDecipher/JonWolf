@@ -1,0 +1,237 @@
+#mainHeader #title a h2 {
+    /* "Pushes" the text down 160px. */
+    margin-top: 160px;
+    font-family: "MyriadPro-Semibold";
+    font-size: 70px;
+    color: white;
+}
+
+#musicMain {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.whiteMain {
+    background-color: floralwhite;
+}
+
+.greyBox {
+    color: darkgray;
+    background-color: whitesmoke;
+}
+
+#playlistBox {
+    box-shadow: 8px 6px 8px #888888;
+    border: 1px solid silver;
+    line-height: 150px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    margin-bottom: 8px;
+    display: inline-flex;
+}
+
+#playlistBox div {
+    width: 50%;
+}
+
+#playlistBox div:nth-of-type(1) {
+    margin-top: -40px;
+}
+
+#playlistBox div a h2 {
+    line-height: 80px;
+    width: 600px;
+    /*        margin-left: 4%;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*    border-bottom: 5px solid dimgray;*/
+    font-size: 3.5em;
+    font-family: "MyriadPro-Regular";
+    color: darkgray;
+}
+
+#playlistBox div a h2:hover {
+    text-decoration: underline;
+}
+
+#playlistBox div hr {
+    width: 95%;
+    margin-top: -50px;
+    margin-bottom: 45px;
+    height: 5px;
+    background-color: dimgray;
+}
+
+#playlistBox div p {
+    margin-top: -10px;
+    font-style: italic;
+    color: dimgray;
+    font-size: 1.5em;
+    font-family: "MyraidPro-Regular";
+    line-height: 40px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    /*    margin-left: 4%;*/
+}
+
+#playlistBox div a img {
+    position: relative;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.75;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+#playlistBox a img:hover {
+    background-color: black;
+    opacity: 0.3;
+}
+
+#playlistBox div a img:hover+.Checkitout {
+    visibility: visible;
+}
+
+#playlistBox div a .Checkitout {
+    width: 50%;
+    margin: auto;
+    margin-top: -32%;
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -140px;
+    text-align: center;
+    font-family: "MyriadPro-Semibold";
+    font-size: 50px;
+    color: black;
+}
+
+#playlistBox div .Checkitout:hover {
+    visibility: visible;
+}
+
+#songBox {
+    box-shadow: 8px 6px 8px #888888;
+    border: 1px solid silver;
+    padding-bottom: 100px;
+    line-height: 150px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-flex;
+}
+
+#songBox div {
+    height: 450px;
+}
+
+#songBox div:nth-of-type(1) {
+    margin-top: -40px;
+    width: 50%;
+}
+
+#songBox div:nth-of-type(2) {
+    width: 50%;
+}
+
+#songBox div a h2 {
+    line-height: 80px;
+    width: 600px;
+    /*    margin-left: 4%;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*    border-bottom: 5px solid dimgray;*/
+    font-size: 3.5em;
+    font-family: "MyriadPro-Regular";
+    color: darkgray;
+}
+
+#songBox div a h2:hover {
+    text-decoration: underline;
+}
+
+#songBox div hr {
+    width: 95%;
+    margin-top: -50px;
+    margin-bottom: 45px;
+    height: 5px;
+    background-color: dimgray;
+}
+
+#songBox div p {
+    margin-top: -20px;
+    font-style: italic;
+    color: dimgray;
+    font-size: 1.5em;
+    font-family: "MyraidPro-Regular";
+    line-height: 40px;
+    width: 600px;
+    text-align: center;
+    /*    margin-left: 4%;*/
+    margin: auto;
+}
+
+#songBox div a img {
+    position: relative;
+    backface-visibility: hidden;
+    height: 450px;
+    /*    padding-top: 50px;*/
+    /*    padding-bottom: 50px;*/
+    width: 4000px;
+    max-width: 100%;
+    height: 4000px;
+    max-height: 122%;
+    /*    background-color: black;*/
+    opacity: 0.7;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+#songBox div a img:hover {
+    opacity: 0.3;
+}
+
+#songBox div a img:hover+.explore {
+    visibility: visible;
+}
+
+#songBox div a .explore {
+    width: 50%;
+    margin: auto;
+    margin-top: -57%;
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: 0px;
+    text-align: center;
+    font-family: "MyriadPro-Semibold";
+    font-size: 50px;
+    color: black;
+}
+
+#songBox div a .explore:hover {
+    visibility: visible;
+}
+
+#videoOverlay img {
+    width: 38%;
+    height: 280px;
+    left: 31%;
+    top: 115px;
+    position: fixed;
+}
+
+#videoOverlay {
+    width: 100%;
+    margin: auto;
+    background-color: gray;
+    opacity: 0.65;
+}

@@ -1,0 +1,79 @@
+body #bg-section {
+    justify-content: center;
+    align-items: center;
+    font-family: "MyriadPro-Semibold";
+    display: block;
+}
+
+
+/* --------------------------------------------- Section ------------------------------------------- */
+
+body #bg-section #wrapper {
+    height: 1500px;
+    max-height: 1500px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+body #bg-section #wrapper .item-wrapper {
+    height: 500px;
+    position: relative;
+}
+
+body #bg-section #wrapper .item-wrapper .container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+body #bg-section #wrapper .item-wrapper .container .title {
+    font-size: 3em;
+    top: 15%;
+    position: relative;
+}
+
+body #bg-section #wrapper .item-wrapper .container .item-btn {
+    font-family: sans-serif;
+    font-size: 1em;
+    top: 30%;
+    letter-spacing: 2pt;
+    position: relative;
+    padding: 1% 3% 1% 3%;
+    border: 1px solid silver;
+    align-self: center;
+    -ms-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+
+body #bg-section #wrapper #case-black {
+    background-color: black;
+    color: white;
+}
+
+body #bg-section #wrapper #case-white {
+    background-color: white;
+    color: black;
+}
+
+body #bg-section #wrapper .item-wrapper .container #btn-black {
+    background-color: black;
+    color: white;
+}
+
+body #bg-section #wrapper .item-wrapper .container #btn-white {
+    background-color: white;
+    color: black;
+}
+
+body #bg-section #wrapper .item-wrapper .container #btn-black:hover {
+    background-color: white;
+    color: black;
+}
+
+body #bg-section #wrapper .item-wrapper .container #btn-white:hover {
+    background-color: black;
+    color: white;
+}
